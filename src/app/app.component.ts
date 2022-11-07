@@ -13,7 +13,7 @@ export class AppComponent {
     content2:"Second Content",
     content3:"Third Content"
   }
-  firstDivContent : string = "<script>alert('dhdf')</script>I have some apples.First Div Content. Lorem ...."
+  firstDivContent : string = "<script>alert('dhdf')</script>,I have some apples.First Div Content. Lorem ...."
   secondDivContent : string = "Second Div Content. Lorem 2...."
   thirdDivContent : string = "Third Div Content. Lorem 3...."
 
