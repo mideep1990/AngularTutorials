@@ -1,0 +1,12 @@
+section{
+    display: flex;
+    flex-direction: column;
+    width:400px;
+    border:1px solid gray;
+    min-height: 100px;
+}
+section div{
+    background-color: antiquewhite;
+    width:100%;
+    margin-bottom:5px;
+}
