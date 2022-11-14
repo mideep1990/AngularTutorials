@@ -1,12 +1,17 @@
 <section>
   <div>
-    <p>{{data.content1}}</p>
+    <app-card [dataToShow]="data[0]"
+    (DataFromCard)="DataFromCardFun($event)"
+    ></app-card>
   </div>
   <div>
-    <p>{{data.content2}}</p>
+    <app-card [dataToShow]="data[1]"
+    (DataFromCard)="DataFromCardFun($event)"
+    ></app-card>
   </div>
   <div>
-    <p>{{data.content3}}</p>
+    <app-card [dataToShow]="data[2]"
+    (DataFromCard)="DataFromCardFun($event)"
+    ></app-card>
   </div>
-  <input type="text" [value]="data.content1" (keyup)="keyUpFunction(inputdt.value)" #inputdt/>
 </section>
